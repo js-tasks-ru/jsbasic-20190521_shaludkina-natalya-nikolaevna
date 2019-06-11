@@ -9,7 +9,7 @@
 
 function getMinMax(inputData) {
 
-    //let inputData = '25,-1,-234,4,   1000';
+    //let inputData = '25,-1,-234,4,  1000';
 
     let arr = inputData.split(/[\s,]+/);
 
