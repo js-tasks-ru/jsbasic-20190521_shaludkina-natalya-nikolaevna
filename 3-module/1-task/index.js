@@ -6,6 +6,7 @@
  */
 function showSalary(data, age) {
 
+
     let filterData = data.filter(item => item.age <= age)
         .map(item => (item.name + ', ' + item.balance));
 
@@ -14,4 +15,3 @@ function showSalary(data, age) {
     return(str);
 
 }
-

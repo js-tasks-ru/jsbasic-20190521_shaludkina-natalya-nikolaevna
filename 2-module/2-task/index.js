@@ -4,6 +4,7 @@
  * @returns {Boolean}
  */
 
+
 function isEmpty (obj) {
 
     let counter = 0;
@@ -13,5 +14,5 @@ function isEmpty (obj) {
     }
 
     return counter > 0 ? false : true;
-}
 
+}

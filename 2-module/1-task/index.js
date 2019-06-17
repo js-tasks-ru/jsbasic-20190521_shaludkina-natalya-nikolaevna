@@ -19,6 +19,4 @@ function clone(obj) {
         }
     }
     return cloneObj;
-    console.log(cloneObj);
-    console.log(obj);
 }
